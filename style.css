@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+.wrapper{
+    height: 85%;
+    width: 100%;
+    background-color: bisque;
+    border: black 5px solid;
+    padding: 50px;
+}
+.player_wrapper{
+    /* background-color: burlywood; */
+    position: relative;
+    /* padding: 50px; */
+
+}
+.video_player{
+    width: 90%;
+    background-color:lightblue ;
+    border: cornflowerblue solid 3px;
+
+}
+.player_controls
+{
+ top:98%;
+ position:absolute;
+ background-color:black;
+ width:100%;
+ padding:5px;
+ box-sizing:border-box;
+}
+input[type="image"]
+{
+ float:left;
+ height:20px;
+ margin-left:2px;
+ margin-right:5px;
+ margin-top:2px;
+
+}
